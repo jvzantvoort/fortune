@@ -3,13 +3,12 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"time"
 
 	"github.com/jvzantvoort/fortune/content"
 )
 
 func main() {
-	rand.Seed(time.Now().Unix())
+	// rand.Seed(time.Now().Unix())
 
 	files, _ := content.GetFortuneFiles()
 	filename := files[rand.Intn(len(files))]
