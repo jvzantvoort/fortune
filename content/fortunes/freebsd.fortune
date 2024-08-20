@@ -1,7 +1,3 @@
-This fortune brought to you by:
-$FreeBSD: src/games/fortune/datfiles/fortunes,v 1.275 2009/06/05 07:57:10 edwin
-Exp $
-%
 =======================================================================
 || ||
 || The FORTUNE-COOKIE program is soon to be a Major Motion Picture!  ||
@@ -2045,7 +2041,7 @@ about results; for in the face of all data analysis it is sure to be noticed.
 them on to the youth at the next desk.  Nurture some mutual funds to shield
 you in times of sudden layoffs.  But do not distress yourself with imaginings
 -- the real bugs are enough to screw you badly.  Murphy's Law runs the
-Universe -- and whether or not it is clear to you, no doubt &lt;Curl&gt;B*n dS =
+Universe -- and whether or not it is clear to you, no doubt <Curl>B*n dS =
 0.
 	Therefore, grab for a piece of the pie, with whatever proposals you
 can conceive of to try.  With all the crashed disks, skewed data, and broken
@@ -4938,9 +4934,9 @@ how it was used...
 	"I thought you fixed that last century!"
 	"No, no, not that.  Someone's found a security problem in the physics
 program.  They're getting energy out of nowhere."
-	"Blessit!  Lemme look...  &lt;tappity clickity tappity&gt; Hey, it's
-there all right!  OK, just a sec...  &lt;tappity clickity tap...  save...
-compile&gt;
+	"Blessit!  Lemme look...  <tappity clickity tappity> Hey, it's
+there all right!  OK, just a sec...  <tappity clickity tap...  save...
+compile>
 There, that ought to patch it.  Dist it out, wouldja?"
 		-- Cold Fusion, 1989
 %
@@ -5127,19 +5123,19 @@ subjugated nature again celebrates her reconciliation with her prodigal son,
 man.
 		-- Fred Nietzsche, The Birth of Tragedy
 %
-   n = ((n &gt;&gt; 1) & 0x55555555) | ((n &lt;&lt; 1) & 0xaaaaaaaa);
-   n = ((n &gt;&gt; 2) & 0x33333333) | ((n &lt;&lt; 2) & 0xcccccccc);
-   n = ((n &gt;&gt; 4) & 0x0f0f0f0f) | ((n &lt;&lt; 4) & 0xf0f0f0f0);
-   n = ((n &gt;&gt; 8) & 0x00ff00ff) | ((n &lt;&lt; 8) & 0xff00ff00);
-   n = ((n &gt;&gt; 16) & 0x0000ffff) | ((n &lt;&lt; 16) & 0xffff0000);
+   n = ((n >> 1) & 0x55555555) | ((n << 1) & 0xaaaaaaaa);
+   n = ((n >> 2) & 0x33333333) | ((n << 2) & 0xcccccccc);
+   n = ((n >> 4) & 0x0f0f0f0f) | ((n << 4) & 0xf0f0f0f0);
+   n = ((n >> 8) & 0x00ff00ff) | ((n << 8) & 0xff00ff00);
+   n = ((n >> 16) & 0x0000ffff) | ((n << 16) & 0xffff0000);
 
 		-- C code which reverses the bits in a word
 %
-   n = (n & 0x55555555) + ((n & 0xaaaaaaaa) &gt;&gt; 1);
-   n = (n & 0x33333333) + ((n & 0xcccccccc) &gt;&gt; 2);
-   n = (n & 0x0f0f0f0f) + ((n & 0xf0f0f0f0) &gt;&gt; 4);
-   n = (n & 0x00ff00ff) + ((n & 0xff00ff00) &gt;&gt; 8);
-   n = (n & 0x0000ffff) + ((n & 0xffff0000) &gt;&gt; 16);
+   n = (n & 0x55555555) + ((n & 0xaaaaaaaa) >> 1);
+   n = (n & 0x33333333) + ((n & 0xcccccccc) >> 2);
+   n = (n & 0x0f0f0f0f) + ((n & 0xf0f0f0f0) >> 4);
+   n = (n & 0x00ff00ff) + ((n & 0xff00ff00) >> 8);
+   n = (n & 0x0000ffff) + ((n & 0xffff0000) >> 16);
 
 		-- C code which counts the bits in a word
 %
@@ -5166,7 +5162,7 @@ performance.
 === ALL USERS PLEASE NOTE ========================
 
 Bug reports now amount to an average of 12,853 per day.  Unfortunately,
-this is only a small fraction [ &lt; 1% ] of the mail volume we receive.  In
+this is only a small fraction [ < 1% ] of the mail volume we receive.  In
 order that we may more expeditiously deal with these valuable messages,
 please communicate them by one of the following paths:
 
@@ -5451,7 +5447,7 @@ yet we have not advanced one inch towards uniformity.
 %
  Eat drink and be merry, for tomorrow they may make it illegal.
 %
-&lt;&lt;&lt;&lt;&lt; EVACUATION ROUTE &lt;&lt;&lt;&lt;&lt;
+<<<<< EVACUATION ROUTE <<<<<
 %
 ...  "fire" does not matter, "earth" and "air" and "water" do not matter.
 "I" do not matter.  No word matters.  But man forgets reality and remembers
@@ -5505,9 +5501,9 @@ smoking ruins, where lie citizens bayonetted through the throat.  It is
 not a children's pastime like mere highway robbery.
 		-- Stephen Crane
 %
-&gt;&gt;&gt; Internal error in fortune program:
-&gt;&gt;&gt; fnum=2987 n=45 flag=1 goose_level=-232323
-&gt;&gt;&gt; Please write down these values and notify fortune program
+>>> Internal error in fortune program:
+>>> fnum=2987 n=45 flag=1 goose_level=-232323
+>>> Please write down these values and notify fortune program
 administrator.
 %
 : is not an identifier
@@ -5729,7 +5725,7 @@ VIII.  Any violent rearrangement of feline matter is impermanent.
 	Examples too numerous to mention from the Roadrunner cartoons.
 		-- Esquire, "O'Donnell's Laws of Cartoon Motion", June 1980
 %
-&lt;&lt; WAIT &gt;&gt;
+<< WAIT >>
 %
 ...  we must counterpose the overwhelming judgment provided by consistent
 observations and inferences by the thousands.  The earth is billions of
@@ -6943,7 +6939,7 @@ A good supervisor can step on your toes without messing up your shine.
 A good sysadmin always carries around a few feet of fiber.  If he ever
 gets lost, he simply drops the fiber on the ground, waits ten minutes,
 then asks the backhoe operator for directions.
-		-- Bill Bradford &lt;mrbill@mrbill.net&gt;
+		-- Bill Bradford <mrbill@mrbill.net>
 %
 A GOOD WAY TO THREATEN somebody is to light a stick of dynamite.  Then you
 call the guy and hold the burning fuse to the phone.  "Hear that?" you say.
@@ -11404,7 +11400,7 @@ News articles that answer *your* questions, #1:
 
 	Must they be compiled?  With what compiler?  How do I do this?  If
 	I compile them, is an object code file generated or must I generate
-	it explicitly with the &gt; character?  Is there something else that
+	it explicitly with the > character?  Is there something else that
 	must be done?
 %
 As part of the conversion, computer specialists rewrote 1,500 programs;
@@ -11523,7 +11519,7 @@ Ask not for whom the Bell tolls, and you
 will pay only the station-to-station rate.
 		-- Howard Kandel
 %
-Ask not for whom the &lt;CONTROL-G&gt; tolls.
+Ask not for whom the <CONTROL-G> tolls.
 %
 Ask not for whom the telephone bell tolls...
 if thou art in the bathtub, it tolls for thee.
@@ -12178,7 +12174,7 @@ if you fight for a sensible step in the right direction which others
 has deserted you will be branded "reactionary".
 		-- Poul Henningsen [1894-1967]
 %
-"Being disintegrated makes me ve-ry an-gry!" &lt;huff, huff&gt;
+"Being disintegrated makes me ve-ry an-gry!" <huff, huff>
 %
 Being frustrated is disagreeable, but the real
 disasters in life begin when you get what you want.
@@ -12333,14 +12329,14 @@ Better living a beggar than buried an emperor.
 better !pout !cry
 better watchout
 lpr why
-santa claus &lt;north pole &gt;town
+santa claus <north pole >town
 
-cat /etc/passwd &gt;list
+cat /etc/passwd >list
 ncheck list
 ncheck list
-cat list | grep naughty &gt;nogiftlist
-cat list | grep nice &gt;giftlist
-santa claus &lt;north pole &gt; town
+cat list | grep naughty >nogiftlist
+cat list | grep nice >giftlist
+santa claus <north pole > town
 
 who | grep sleeping
 who | grep awake
@@ -14723,10 +14719,10 @@ Dad always thought laughter was the best medicine, which I guess is why
 several of us died of tuberculosis.
 		-- Jack Handey
 %
-&lt;Daibashiw&gt; Wasn't EMACS originally developed as a swap memory stresser,
+<Daibashiw> Wasn't EMACS originally developed as a swap memory stresser,
 though?
 
-&lt;``Erik&gt; lispos emulator?  gotta admit it's well featured, the only thing
+<``Erik> lispos emulator?  gotta admit it's well featured, the only thing
 it lacks is a decent editor
 %
 DALLAS:
@@ -15173,10 +15169,10 @@ come of nothing: speak again." -- King Lear.
 Defeat is worse than death because you have to live with defeat.
 		-- Bill Musselman
 %
-#define BITCOUNT(x) (((BX_(x)+(BX_(x)&gt;&gt;4)) & 0x0F0F0F0F) % 255)
-#define BX_(x) ((x) - (((x)&gt;&gt;1)&0x77777777) \
-			     - (((x)&gt;&gt;2)&0x33333333) \
-			     - (((x)&gt;&gt;3)&0x11111111))
+#define BITCOUNT(x) (((BX_(x)+(BX_(x)>>4)) & 0x0F0F0F0F) % 255)
+#define BX_(x) ((x) - (((x)>>1)&0x77777777) \
+			     - (((x)>>2)&0x33333333) \
+			     - (((x)>>3)&0x11111111))
 
 		-- really weird C code to count the number of bits in a word
 %
@@ -16331,7 +16327,7 @@ in both, superstition, bigotry, and persecution.
 %
 During the next two hours, the system will be going up and down several
 times, often with lin~po_~{po ~poz~ppo\~{ o n~po_~{o[po ~y
-oodsou&gt;#w4k**n~po_~{ol;lkld;f;g;dd;po\~{o
+oodsou>#w4k**n~po_~{ol;lkld;f;g;dd;po\~{o
 %
 During the Reagan-Mondale debates:
 
@@ -18389,7 +18385,7 @@ For what it's worth, if you -can- get Michelle Pfeiffer to model
 a latex daemon suit for the catalog, I strongly suggest you do.
 Breasts can sell anything.  Shiny red latex body suits start
 religions.
-		-- Brian McGroarty &lt;bvmcg@yahoo.com&gt;
+		-- Brian McGroarty <bvmcg@yahoo.com>
 %
 For years a secret shame destroyed my peace--
 I'd not read Eliot, Auden or MacNiece.
@@ -18969,10 +18965,10 @@ Fortune suggests uses for YOUR favorite UNIX commands!
 
 Try:
 	ar t "God"
-	drink &lt; bottle; opener (Bourne Shell)
+	drink < bottle; opener (Bourne Shell)
 	cat "food in tin cans" (all but 4.[23]BSD)
 	Hey UNIX!  Got a match?  (V6 or C shell)
-	mkdir matter; cat &gt; matter (Bourne Shell)
+	mkdir matter; cat > matter (Bourne Shell)
 	rm God
 	man: Why did you get a divorce?  (C shell)
 	date me (anything up to 4.3BSD)
@@ -24601,7 +24597,7 @@ I think I'll snatch a kiss and flee.
 I think I'm schizophrenic.  One half of me's
 paranoid and the other half's out to get him.
 %
-I think it is true for all _n.  I was just playing it safe with _n &gt;= 3
+I think it is true for all _n.  I was just playing it safe with _n >= 3
 because I couldn't remember the proof.
 		-- Baker, Pure Math 351a
 %
@@ -27447,16 +27443,16 @@ I'm going through my "I want to go back to New York" phase today.  Happens
 every six months or so.  So, I thought, perhaps unwisely, that I'd share
 it with you.
 
-&gt; In New York in the winter it is million degrees below zero and
+> In New York in the winter it is million degrees below zero and
   the wind travels at a million miles an hour down 5th avenue.
-&gt; And in LA it's 72.
+> And in LA it's 72.
 
-&gt; In New York in the summer it is a million degrees and the humidity
+> In New York in the summer it is a million degrees and the humidity
   is a million percent.
-&gt; And in LA it's 72.
+> And in LA it's 72.
 
-&gt; In New York there are a million interesting people.
-&gt; And in LA there are 72.
+> In New York there are a million interesting people.
+> And in LA there are 72.
 %
 I'm going to Boston to see my doctor.  He's a very sick man.
 		-- Fred Allen
@@ -27569,7 +27565,7 @@ I'm so miserable without you, it's almost like you're here.
 I'm sorry, but after reading this thread, I'm having a hard time
 coming up with an explanation for this nonsense which doesn't involve
 you being a dumbass.
-		-- Bill Paul &lt;wpaul@FreeBSD.org&gt;
+		-- Bill Paul <wpaul@FreeBSD.org>
 %
 I'm sorry, but my kharma just ran over your dogma.
 %
@@ -28061,7 +28057,7 @@ want the other person.
 %
 In reply to a message by Scott Long:
 
-&gt; Note: this amounts to life support for floppies.  The end IS coming.
+> Note: this amounts to life support for floppies.  The end IS coming.
 
 Say it ain't so!  If you establish a dangerous trend like this in
 your support for floppy booting, the next thing you know, some
@@ -31167,7 +31163,7 @@ Proof (by induction):
 	of these horses are the same color.  Now put back the horse that you
 	took out, and pull out a different one.  Suppose that all of the k
 	horses now in the set are the same color.  Then the set of k+1 horses
-	are all the same color.  We have k true =&gt; k+1 true; therefore all
+	are all the same color.  We have k true => k+1 true; therefore all
 	horses are the same color.
 Theorem: All horses have an infinite number of legs.
 Proof (by intimidation):
@@ -39133,7 +39129,7 @@ Q: How do you keep a moron in suspense?
 Q. How do you keep an Aggie busy at a terminal?
 A. While he's not looking, switch it to "local".
 %
-Q: How do you know when you're in the &lt;ethnic&gt; section of Vermont?
+Q: How do you know when you're in the <ethnic> section of Vermont?
 A: The maple sap buckets are hanging on utility poles.
 %
 Q: How do you make an elephant float?
@@ -40192,7 +40188,7 @@ Radicalism:
 %
 RADIO SHACK LEVEL II BASIC
 READY
-&gt;_
+>_
 %
 Radioactive cats have 18 half-lives.
 %
@@ -42187,7 +42183,7 @@ Skinner's Constant (or Flannagan's Finagling Factor):
 %
 skldfjkljklsR%^&(IXDRTYju187pkasdjbasdfbuil
 h;asvgy8p 23r1vyui135 2
-kmxsij90TYDFS$$b jkzxdjkl bjnk ;j nk;&lt;[][;-==-&lt;&lt;&lt;&lt;&lt;';[,
+kmxsij90TYDFS$$b jkzxdjkl bjnk ;j nk;<[][;-==-<<<<<';[,
 		[hjioasdvbnuio;buip^&(FTSD$%*VYUI:buio;sdf}[asdf']
 				sdoihjfh(_YU*G&F^*CTY98y
 
@@ -49484,7 +49480,7 @@ Proof:
 %
 Theorem: All positive integers are equal.
 Proof: Sufficient to show that for any two positive integers, A and B, A = B.
-	Further, it is sufficient to show that for all N &gt; 0, if A and B
+	Further, it is sufficient to show that for all N > 0, if A and B
 	(positive integers) satisfy (MAX(A, B) = N) then A = B.
 
 Proceed by induction:
@@ -50693,7 +50689,7 @@ They have been at a great feast of languages, and stolen the scraps.
 		-- William Shakespeare, "Love's Labour's Lost"
 %
 They have their datasheets translated from Korean into English by
-Russians with Greek-&gt;German dictionaries
+Russians with Greek->German dictionaries
 		-- Philip Paeps, on modern hardware documentation
 %
 They just buzzed and buzzed...buzzed.
@@ -50892,7 +50888,7 @@ beetle,block,dung,thick}headed, dense, doltish, dull, duncical, numskulled,
 pinhead; asinine, fatuous, foolish, silly, simple; brute, lumbering, oafish;
 half-assed, incompetent; backward, retarded, imbecilic, moronic; when we have
 a whole precisely nuanced vocabulary of intellectual abuse to draw upon,
-individually and in combination, isn't it a little &lt;fill in the blank&gt; to be
+individually and in combination, isn't it a little <fill in the blank> to be
 limited to a single, now quite trite, adjective?
 %
 This door is baroquen, please wiggle Handel.
@@ -53249,7 +53245,7 @@ VMS is like a nightmare about RSX-11M.
 VMS, n:
 	The world's foremost multi-user adventure game.
 %
-VMS version 2.0 ==&gt;
+VMS version 2.0 ==>
 %
 Voiceless it cries,
 Wingless flutters,
@@ -54207,7 +54203,7 @@ A D B T
 
 K I S P
 Enter words:
-&gt;
+>
 %
 Welcome to Lake Wobegon, where all the men are strong,
 The women are pretty, and the children are above-average.

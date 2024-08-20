@@ -1,6 +1,3 @@
-%% $FreeBSD: src/games/fortune/datfiles/fortunes-o.real,v 1.22.2.4 2009/06/07
-04:49:23 edwin Exp $
-%
 						PLAYGIRL, Inc.
 						Philadelphia, Pa. 19369
 Dear Sir:
@@ -1955,9 +1952,9 @@ being so helpless.
 	This guy is walking down the beach one fine sunny day, feeling
 good, when suddenly he sees this woman with no arms or legs in a wheelchair,
 sobbing like crazy.  He decides to be gallant, "What's wrong, miss?"
-	"I...&lt;sob, sniffle&gt;...I'm 21 and I &lt;choke&gt; I've never been
+	"I...<sob, sniffle>...I'm 21 and I <choke> I've never been
 	kissed...
-&lt;sniffle&gt;"
+<sniffle>"
 	So this guy, he decides, what the hell, let's cheer up the poor lady.
 He leans over and gives her a long wonderful kiss.  This does wonders, and
 the woman's face lights up and she grins from ear to ear, and the guy wanders
@@ -1965,7 +1962,7 @@ away feeling wonderful.
 	Well, next week, the same guy is walking along the same beach, and
 sees the same girl who is once again sobbing her eyes out.  Gallant to the
 end, our hero says, "What's wrong, miss, can I help?"
-	"I...I'm &lt;sob, sniffle, sniffle&gt; 21 and I've never been fucked..."
+	"I...I'm <sob, sniffle, sniffle> 21 and I've never been fucked..."
 	The guy picks her up out of her chair, cuddles her close, and brings
 her over to the shore, and throws her into the water.  "Now you're fucked!"
 %
@@ -5961,7 +5958,7 @@ Try:
 	make love
 	make "the perfect dry martini"
 	man -kisses dog (anything up to 4.3BSD)
-	i=Hoffa ; &gt;$i; $i; rm $i; rm $i (Bourne shell)
+	i=Hoffa ; >$i; $i; rm $i; rm $i (Bourne shell)
 %
 FORTUNE TESTS THE GREAT MANAGERS: #3
 
@@ -10644,7 +10641,7 @@ A: The duck wins!
 Q: Have you ever been picked up by the fuzz?
 A: No, but I bet it hurts like hell.
 %
-Q: Heard about the &lt;ethnic&gt; who couldn't spell?
+Q: Heard about the <ethnic> who couldn't spell?
 A: He spent the night in a warehouse.
 %
 Q: How can a real man tell when his girl friend's having an orgasm.
@@ -11265,7 +11262,7 @@ quickie, n:
 quickie, n:
 	No sooner spread than done.
 %
-QWERT (kwirt) n.  [MW &lt; OW qwertyuiop, a thirteenth] 1.  a unit of weight
+QWERT (kwirt) n.  [MW < OW qwertyuiop, a thirteenth] 1.  a unit of weight
 equal to 13 poiuyt avoirdupois (or 1.69 kiloliks), commonly used in
 structural engineering 2.  [Colloq.] one thirteenth the load that a fully
 grown sligo can carry.  3.  [Anat.] a painful irritation of the dermis
