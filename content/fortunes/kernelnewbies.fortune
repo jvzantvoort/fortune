@@ -1,4 +1,3 @@
-%
 "I want you guys to look at your computer screen, imagining the worst
  monster you can (the cacodeamon from Quake will do, just make him hairier
  and bigger and more MEAN), and think of me.  Think of me like I am when I
@@ -69,8 +68,8 @@
 
 	- Timmy Thorn on kernel/sched.c:schedule()
 %
-"&gt;So what is The Big Difference(tm) that make file streams
- &gt;so much better than directories and so much different?
+">So what is The Big Difference(tm) that make file streams
+ >so much better than directories and so much different?
 
  I'll talk really slowly."
 
@@ -82,8 +81,8 @@
 	- Larry McVoy
 %
 Jes Sorensen wrote:
-&gt; Jamie, you know how inappropriate it is to introduce facts in a
-&gt; discussion about ReiserFS, please refrain from that in the future."
+> Jamie, you know how inappropriate it is to introduce facts in a
+> discussion about ReiserFS, please refrain from that in the future."
 
 Sorry, I will use [OFFTOPIC] for facts in future ;-)
 
@@ -199,13 +198,13 @@ Sorry, I will use [OFFTOPIC] for facts in future ;-)
       o (/\/ \ \ /\
       o / / | ` \
       o O O ) / |
-     o `-^--'`&lt; '
+     o `-^--'`< '
       .--.  (_.) _ ) /
      |o_o | `.___/` /
      |:_/ | `-----' /
-    //&lt;- \ \----.  __ / __ \
-   (| &lt;- | )---|====O)))==) \) /====
-  /'\ &lt;- _/`\---' `--' `.__,' \
+    //<- \ \----.  __ / __ \
+   (| <- | )---|====O)))==) \) /====
+  /'\ <- _/`\---' `--' `.__,' \
   \___)=(___/ | |
 			   \ /
 		     ______( (_ / \______
@@ -304,10 +303,10 @@ Understatement of the century:
 
 	- Jerry Epplin
 %
-Alan Cox &lt;alan@lxorguk.ukuu.org.uk&gt; wrote:
-&gt;
-&gt; Running with page aging convinces me that 2.2.19 we need to sort some
-&gt; of the vm issues out badly, and make it faster than 2.4test 8)
+Alan Cox <alan@lxorguk.ukuu.org.uk> wrote:
+>
+> Running with page aging convinces me that 2.2.19 we need to sort some
+> of the vm issues out badly, and make it faster than 2.4test 8)
 
 Ahh..  The challenge is out!
 
@@ -315,7 +314,7 @@ You and me.  Mano a mano.
 
 		Linus
 %
-&gt; Is there anything else I can contribute?
+> Is there anything else I can contribute?
 
 The latitude and longtitude of the bios writers current position, and
 a ballistic missile.
@@ -358,7 +357,7 @@ wouldnt know QA if it hit them on the head with a mallet' list
 
 	- Andreas Dilger
 %
-&gt; around line mm/vmscan.c:487 that says:
+> around line mm/vmscan.c:487 that says:
 
 Yeah, yeah, it's 7PM Christmas Eve over there, and you're in the middle of
 your Christmas dinner.  You might feel that it's unreasonable of me to ask
@@ -370,9 +369,9 @@ Get back there in front of the computer NOW.  Christmas can wait.
 
 		Linus "the Grinch" Torvalds
 %
-&gt; I can just imagine Xmas at the Torvalds residence, with their annual
-&gt; tradition of having the kids scream...  But dad, other kids have the l
-&gt; lights strung around the trees, not the computer....
+> I can just imagine Xmas at the Torvalds residence, with their annual
+> tradition of having the kids scream...  But dad, other kids have the l
+> lights strung around the trees, not the computer....
 
 I don't think you get the full picture.  I suspect what gets strung up on the
 trees at Christmas if Linus does too much hacking is ...  Linus
@@ -406,8 +405,8 @@ trees at Christmas if Linus does too much hacking is ...  Linus
 
 	- Linus Torvalds
 %
-"&gt; I am using the Intel PCI backplane with default etchlink/jumper
- &gt; configuration and the EBSA285 configured as host bridge.
+"> I am using the Intel PCI backplane with default etchlink/jumper
+ > configuration and the EBSA285 configured as host bridge.
 
  I'd suggest that you check, double check, triple check, take a photo of
  the links and put it up on the web and get someone else to check all
@@ -437,7 +436,7 @@ trees at Christmas if Linus does too much hacking is ...  Linus
 
 	- Anton Altaparmakov on the NTFS driver
 %
-"Wichert&gt; Why would anyone want to do this?
+"Wichert> Why would anyone want to do this?
 
  Probably because it's a completely stupid idea that serves no purpose
  whatsoever."
@@ -452,8 +451,8 @@ trees at Christmas if Linus does too much hacking is ...  Linus
 
 	- Werner Almesberger
 %
-&gt; Is there an API or other means to determine what video card, namely the
-&gt; chipset, that the user has installed on his machine?
+> Is there an API or other means to determine what video card, namely the
+> chipset, that the user has installed on his machine?
 
 On a modern X86 machine use the PCI/AGP bus data.  On a PS/2 use the MCA bus
 data.  On nubus use the nubus probe data.  On old style ISA bus PCs done a
@@ -471,26 +470,26 @@ for you to have multiple files with the same name on your disk.
 
 	- Rik van Riel explaining the concept of directories
 %
-&lt;movement&gt; hmm, all you kernel hackers spending too much time adding
+<movement> hmm, all you kernel hackers spending too much time adding
 	   fortunes instead of important stuff :)
 
 	- John Levon trying to grasp kernel hacking reality
 %
 Alan Cox wrote:
-&gt; RFC1122 also requires that your protocol stack SHOULD be able to leap tall
-&gt; buldings at a single bound of course...
+> RFC1122 also requires that your protocol stack SHOULD be able to leap tall
+> buldings at a single bound of course...
 
 And, of course my protocol stack does :) It is also a floor wax, AND a
 dessert topping!-)
 
 	- Rick Jones trying to sell his protocol stack
 %
-&lt;WeirdArms&gt; erikm: bugger alan cox on a chip, I want alan cox in a book ;)
+<WeirdArms> erikm: bugger alan cox on a chip, I want alan cox in a book ;)
 
 	- Adam Wiggins on #kernelnewbies
 %
-&lt;matton&gt; it might be broken?
-&lt;al&gt; matton: sigh...  all software sucks, but usually there are symptomes
+<matton> it might be broken?
+<al> matton: sigh...  all software sucks, but usually there are symptomes
      beyond "it doesn't work"
 
 	- Al Viro on #kernelnewbies
@@ -505,9 +504,9 @@ dessert topping!-)
 	- Al Viro
 %
 Alan Cox wrote:
-&gt; In theory however i2o is a standard and all i2o works alike.  In practice i2o
-&gt; is a pseudo standard and nobody seems to interpret the spec the same way, the
-&gt; implementations all tend to have bugs and the hardware sometimes does too.
+> In theory however i2o is a standard and all i2o works alike.  In practice i2o
+> is a pseudo standard and nobody seems to interpret the spec the same way, the
+> implementations all tend to have bugs and the hardware sometimes does too.
 
 That's a pretty good description of standards in general, at least
 when it comes to hardware :-)
@@ -524,13 +523,13 @@ when it comes to hardware :-)
 
 	- comment in the Crack 5 source, file src/util/kickdict.c
 %
-/* First check any supplied i/o locations.  User knows best.  &lt;cough&gt; */
+/* First check any supplied i/o locations.  User knows best.  <cough> */
 
 	- comment from drivers/net/ne.c
 %
 David Brownell wrote:
-&gt; AMD told me I'd need an NDA to learn their workaround, and I've not
-&gt; pursued it.  (Does anyone already know what kind of NDA they use?)
+> AMD told me I'd need an NDA to learn their workaround, and I've not
+> pursued it.  (Does anyone already know what kind of NDA they use?)
 
 It varies depending on the info.  They may well be able to sort out a sane
 NDA with you.  If they dont want to then I guess it would be best if the
@@ -551,7 +550,7 @@ errata fix, gave AMD's phone number and refused to load..
 	- Richard B. Johnson on linux-kernel
 %
 Richard B. Johnson wrote:
-&gt; The 'C' language can order structure members anyway it wants.
+> The 'C' language can order structure members anyway it wants.
 
 You are an idiot.
 
@@ -570,9 +569,9 @@ nasty and not the preferred unknow solution.
 	- Andre Hedrik on linux-kernel
 %
 Alan Olsen wrote:
-&gt; things correctly they have enhanced Wake-on-LAN to allow you to do
-&gt; things like reset the machine, update the BIOS and such by sending
-&gt; magic packets which are interpreted by the network card.  Or maybe I am
+> things correctly they have enhanced Wake-on-LAN to allow you to do
+> things like reset the machine, update the BIOS and such by sending
+> magic packets which are interpreted by the network card.  Or maybe I am
 
 Normally 'sending magic packets resets the machine' is considered a feature
 reported to bugtraq.  The alert stuff I have seen is more akin to sending SNMP
@@ -606,15 +605,15 @@ I retain the right to change my mind, as always.  Le Linus e mobile.
 	- Linus Torvalds
 %
 Steve Underwood wrote:
-&gt; Dave Miller wrote:
-&gt; &gt; alterity wrote:
-&gt; &gt; &gt; Haven't seen a post for sometime from the usually prolific Mr Cox.
-&gt; &gt; &gt; What's the gossip?
-&gt; &gt;
-&gt; &gt; They needed some help from him to position Mir for it's
-&gt; &gt; final descent.
-&gt;
-&gt; Strange.  I thought his key skill was stopping things from crashing!
+> Dave Miller wrote:
+> > alterity wrote:
+> > > Haven't seen a post for sometime from the usually prolific Mr Cox.
+> > > What's the gossip?
+> >
+> > They needed some help from him to position Mir for it's
+> > final descent.
+>
+> Strange.  I thought his key skill was stopping things from crashing!
 
 This crash was inevitable, he's just making sure the disks get
 sync'd.
@@ -622,8 +621,8 @@ sync'd.
 	- Dave Miller on linux-kernel
 %
 Andries Brouwer wrote:
-&gt; Linux is unreliable.
-&gt; That is bad.
+> Linux is unreliable.
+> That is bad.
 
 Since your definition of reliability is a mathematical abstraction requiring
 infinite storage why don't you start by inventing infinitely large SDRAM
@@ -647,8 +646,8 @@ are more important than features.
 	- Linus Torvalds on linux-kernel
 %
 Dennis wrote:
-&gt; whatever you do dont buy a gigabit card with a small buffer and 32bits.
-&gt; 32bits isnt enough to do gigabit, even with a large buffer.
+> whatever you do dont buy a gigabit card with a small buffer and 32bits.
+> 32bits isnt enough to do gigabit, even with a large buffer.
 
 Never underestimate what will come out of Taiwan in massive quantities
 :)
@@ -656,8 +655,8 @@ Never underestimate what will come out of Taiwan in massive quantities
 	- Jeff Garzik about gigabit ethernet cards on linux-kernel
 %
 Bruno Avila wrote:
-&gt; I can't find this anywhere.  What is the version of the tools to
-&gt; compile linux kernel 0.0.0.1 (../Historic)?  And where can i find them?
+> I can't find this anywhere.  What is the version of the tools to
+> compile linux kernel 0.0.0.1 (../Historic)?  And where can i find them?
 
 Well, first you have to find a good source of obsidean, a couple of sharp
 rocks, and some flint...
@@ -691,7 +690,7 @@ to tell me were to go, and do it ;-).
 	- Andre Hedrick on linux-kernel
 %
 David Wagner wrote:
-&gt; Is this a bad coding?
+> Is this a bad coding?
 
 Yes.  Not to mention side effects, it's just plain ugly.  Anyone who invents
 identifiers of _that_ level of ugliness should be forced to read them
@@ -767,20 +766,20 @@ characters, it starts to get silly.
 
 	- Russell King on linux-kernel
 %
-&lt;tik-tok&gt; Hi all, I'm having problems with my 2.2.19 kernel build I'm
+<tik-tok> Hi all, I'm having problems with my 2.2.19 kernel build I'm
 	trying to create my ramdisk and I get the following error
 	message "All your loopback devices are in use!" can anyone help?
-&lt;phillips&gt; All your loopback devices are belong to us!
+<phillips> All your loopback devices are belong to us!
 
 	- Daniel Phillips on #kernelnewbies
 %
-&lt;klak&gt; I need some help, I upgraded my kernel and on a reboot I get this
+<klak> I need some help, I upgraded my kernel and on a reboot I get this
 error
 	  message kmod: failed to exec /sbin/modprobe -s -k binfmt-464c, errno
 	  = 8 can anyone help?
-&lt;spinoli&gt; from /usr/include/asm/errno.h
-&lt;spinoli&gt; #define ENOEXEC 8 /* Exec format error */
-&lt;spinoli&gt; not that that necessarily tells you much ;)
+<spinoli> from /usr/include/asm/errno.h
+<spinoli> #define ENOEXEC 8 /* Exec format error */
+<spinoli> not that that necessarily tells you much ;)
 
 	- from #kernelnewbies
 %
@@ -793,8 +792,8 @@ I call that a bug.  You don't.  Fine.
 	- Linus Torvalds rejecting a patch on linux-kernel
 %
 Richard B. Johnson wrote:
-&gt; It's a "tomorrow" thing.  Ten hours it too long to stare at a
-&gt; screen.
+> It's a "tomorrow" thing.  Ten hours it too long to stare at a
+> screen.
 
 Sissy!
 
@@ -850,10 +849,10 @@ shipping and handling.  Absolutely free!"
 	- Linus Torvalds on linux-kernel
 %
 Linus Torvalds wrote:
-&gt; It should be a case of "Just plug in a new kernel, and suddenly your
-&gt; existing filesystem just allows you to do more!  20% more for the same
-&gt; price!  AND we'll throw in this useful ginzu knife for just 4.95 for
-&gt; shipping and handling.  Absolutely free!"
+> It should be a case of "Just plug in a new kernel, and suddenly your
+> existing filesystem just allows you to do more!  20% more for the same
+> price!  AND we'll throw in this useful ginzu knife for just 4.95 for
+> shipping and handling.  Absolutely free!"
 
 ...Linus demonstrates why American culture is a bad influence on you.
 
@@ -906,9 +905,9 @@ the piles of excrements in drivers/*.  Ouch.
 	- Al Viro about ugly code in device drivers on linux-kernel
 %
 Linus Torvalds wrote:
-&gt; Ehh..  Telling people "don't do that" simply doesn't work.  Not if they can
-&gt; do it easily anyway.  Things really don't get fixed unless people have a
-&gt; certain pain-level to induce it to get fixed.
+> Ehh..  Telling people "don't do that" simply doesn't work.  Not if they can
+> do it easily anyway.  Things really don't get fixed unless people have a
+> certain pain-level to induce it to get fixed.
 
 Umm...  How about the following: you hit delete on patches that introduce
 new ioctls, I help to provide required level of pain.  Deal?
@@ -926,7 +925,7 @@ Hope this helps some, sorry for not being able to do a brain dump.
 
 	- Mike Stump helping a clueless user on the gcc mailing list
 %
-&lt;ed__&gt; riel: if it were a vax, gcc would probably be an opcode
+<ed__> riel: if it were a vax, gcc would probably be an opcode
 
 	- excerpt from #kernelnewbies
 %
@@ -953,15 +952,15 @@ solving other peoples incompetence.
 
 	- Alan Cox on linux-kernel
 %
-&lt;sadie&gt; ata: do you get some help from promise while developing the patch ?
-&lt;ata&gt; sadie: pass me a toke of what ever you are smokin'
+<sadie> ata: do you get some help from promise while developing the patch ?
+<ata> sadie: pass me a toke of what ever you are smokin'
 
 	- Andre Hedrik on #kernelnewbies
 %
-&gt; Not that the kernel list is the best place to bring this up, but NVIDIA
-&gt; would NOT be on that list.  They are by far one of the best companies out
-&gt; there providing support for their cards.  I bought my GF2 for exactly that
-&gt; reason too....
+> Not that the kernel list is the best place to bring this up, but NVIDIA
+> would NOT be on that list.  They are by far one of the best companies out
+> there providing support for their cards.  I bought my GF2 for exactly that
+> reason too....
 
 Sure.  I spent much happy time telling people to report bugs to nvidia because
 their closed drivers mean that only nvidia can debug all the crashes people
@@ -969,9 +968,9 @@ see with them loaded - at least some of which dont occur without the modules
 
 	- Alan Cox on linux-kernel
 %
-&lt;phillips&gt; as a perl god, just tell me how to find any string with
+<phillips> as a perl god, just tell me how to find any string with
 	   kernel-doc on it
-&lt;phillips&gt; I'll trade for some heavyduty vfs consulting one day ;-)
+<phillips> I'll trade for some heavyduty vfs consulting one day ;-)
 
 	- Daniel Phillips on #kernelnewbies
 %
@@ -981,7 +980,7 @@ Patches benefit all mankind.  Products benefit the vendor.
 %
 #undef THISSUCKS /* Only for 2.2 */
 #ifdef THISSUCKS
-#include &lt;linux/pipe_fs_i.h&gt;
+#include <linux/pipe_fs_i.h>
 #endif
 
 	- from include/linux/jffs2_fs_i.h
@@ -1025,19 +1024,19 @@ of a politician than intels networking folks.  Maybe they have reformed
 
 	- Alan Cox on linux-kernel
 %
-&lt;JALH&gt; lxrbot, whereis olaf?
-&lt;lxrbot&gt; olaf is Not used
+<JALH> lxrbot, whereis olaf?
+<lxrbot> olaf is Not used
 * JALH runs
-&lt;Russ|werk&gt; JALH: why
-&lt;Russ|werk&gt; its not like you did something like this:
-&lt;Russ|werk&gt; lxrbot, whereis lubrication
-&lt;lxrbot&gt; lubrication is Not used
-&lt;JALH&gt; muwhaha
-&lt;Russ|werk&gt; then...it would be time to run
+<Russ|werk> JALH: why
+<Russ|werk> its not like you did something like this:
+<Russ|werk> lxrbot, whereis lubrication
+<lxrbot> lubrication is Not used
+<JALH> muwhaha
+<Russ|werk> then...it would be time to run
 
 	- abusing lxrbot on #kernelnewbies
 %
-&lt;erikm&gt; cleartape: kernels don't do magic, they just implement mechanisms
+<erikm> cleartape: kernels don't do magic, they just implement mechanisms
 
 	- Erik Mouw on #kernelnewbies
 %
@@ -1050,8 +1049,8 @@ Foo For Complete Dummies in 24 Hours.
 
 	- Al Viro about multi-threading on linux-kernel
 %
-&gt; There's not a court in the civilised world that would uphold the GPL in that
-&gt; scenario.
+> There's not a court in the civilised world that would uphold the GPL in that
+> scenario.
 
 Yes but the concern is the USA 8)
 
@@ -1118,8 +1117,8 @@ wrong either in ACPI the spec, ACPI the implenentation or both.
 
 	- Larry McVoy on GPL licensing issues
 %
-&gt; &gt;
-&gt; &gt; Wait.  Don't you mean:
+> >
+> > Wait.  Don't you mean:
 
 Yes.  Just ignore me when I show extreme signs of Alzheimers.
 
@@ -1142,19 +1141,19 @@ Btw, good debugging!
 
 		Linus "lazy is my middle name" Torvalds
 %
-&lt;mikkei&gt; There once was a guy called Riel,
-&lt;mikkei&gt; Who thought Tux should have been an Eel,
-&lt;mikkei&gt; Although he was a fine programmer,
-&lt;mikkei&gt; He called the little penguin,
-&lt;mikkei&gt; A veritably ugly hack,
-&lt;mikkei&gt; But they all laughed and said "He's on crack!"
-&lt;mikkei&gt;
-&lt;mikkei&gt; There once was a guy called Riel,
-&lt;mikkei&gt; At whose feet the newbies would kneel,
-&lt;mikkei&gt; Each and every day, one newbie would say:
-&lt;mikkei&gt; "Make my patch the Patch of the Month."
-&lt;mikkei&gt; But Riel, saying no with a negative, "hummpfh"
-&lt;mikkei&gt; Would say "fsck off" to the newbies's dismay.
+<mikkei> There once was a guy called Riel,
+<mikkei> Who thought Tux should have been an Eel,
+<mikkei> Although he was a fine programmer,
+<mikkei> He called the little penguin,
+<mikkei> A veritably ugly hack,
+<mikkei> But they all laughed and said "He's on crack!"
+<mikkei>
+<mikkei> There once was a guy called Riel,
+<mikkei> At whose feet the newbies would kneel,
+<mikkei> Each and every day, one newbie would say:
+<mikkei> "Make my patch the Patch of the Month."
+<mikkei> But Riel, saying no with a negative, "hummpfh"
+<mikkei> Would say "fsck off" to the newbies's dismay.
 
 	- Anonymous on #kernelnewbies
 %
@@ -1185,17 +1184,17 @@ It's not broken, you silly boy.
 
 	- Linus Torvalds offending people on the gcc mailing list
 %
-&gt; Linus seems to be getting a little emotional in this discussion but swearing
-&gt; does not replace data.
+> Linus seems to be getting a little emotional in this discussion but swearing
+> does not replace data.
 
-Hey, I called people silly, not &lt;censored&gt;.  You must have a very low
+Hey, I called people silly, not <censored>.  You must have a very low
 tolerance ;)
 
 	- Linus Torvalds about offending people on the gcc mailing list
 %
 James Simmons wrote:
-&gt; Crap can work.  Given enough thrust pigs will fly, but it's not necessary a
-&gt; good idea.  [ Alexander Viro on linux-kernel ]
+> Crap can work.  Given enough thrust pigs will fly, but it's not necessary a
+> good idea.  [ Alexander Viro on linux-kernel ]
 
 Watch the attributions.
 
@@ -1220,7 +1219,7 @@ APM, unfortunately it would be hard to be worse.
 	- Alan Cox on the ACPI mailing list
 %
 Linus Torvalds wrote:
-&gt; Or are they just trying to strongarm the move to the horrid ACPI tables?
+> Or are they just trying to strongarm the move to the horrid ACPI tables?
 
 They are certainly involved in the latter but whether this is related or
 a seperate evil empire scheme is open to question
@@ -1239,12 +1238,12 @@ irrelevant
 	- Alan Cox explaining EULA's on linux-kernel
 %
 Alan Cox wrote:
-&gt; Linus Torvalds wrote:
-&gt; &gt; And quite frankly, if your disk can push 50MB/s through a 1kB
-&gt; &gt; non-contiguous filesystem, then my name is Bugs Bunny.
-&gt;
-&gt; Hi Bugs 8), previously Frodo Rabbit, ..  I think you watch too much kids tv
-&gt; 8)
+> Linus Torvalds wrote:
+> > And quite frankly, if your disk can push 50MB/s through a 1kB
+> > non-contiguous filesystem, then my name is Bugs Bunny.
+>
+> Hi Bugs 8), previously Frodo Rabbit, ..  I think you watch too much kids tv
+> 8)
 
 Three kids will do that to you.  Some day, you too will be there.
 
@@ -1255,22 +1254,22 @@ make people look at the code".  Well, it did.  Veni, vidi, vomere.
 
 	- Al Viro on linux-kernel
 %
-&gt; valerie kernel: mtrr: your CPUs had inconsistent variable MTRR settings
-&gt; valerie kernel: mtrr: probably your BIOS does not setup all CPUs
+> valerie kernel: mtrr: your CPUs had inconsistent variable MTRR settings
+> valerie kernel: mtrr: probably your BIOS does not setup all CPUs
 
 It indicates your bios authors can't read standards.  Thats a quite normal
 state of affairs, so common that the kernel cleans up after them
 
 	- Alan Cox on linux-kernel
 %
-&lt;Russ&gt; I think the linux 2.4 VM is broken...it says, "warning, your memory
+<Russ> I think the linux 2.4 VM is broken...it says, "warning, your memory
        is not optimized, click here to get memturbo".  Is riel aware of
        this problem?
 
 	- Russ Dill on #kernelnewbies
 %
-&lt;JALH&gt; regex are more than some crappy posix thing
-&lt;JALH&gt; they are an art form
+<JALH> regex are more than some crappy posix thing
+<JALH> they are an art form
 
 	- Marc Zealey on #kernelnewbies
 %
@@ -1303,16 +1302,16 @@ HDA.)
 
 	- Mark Wood on linux-kernel
 %
-&gt; The only idea is that 2.4.x kernel turns off cache (L1 & L2) on
-&gt; processor (on my cpu).  How can I check it?  Any ideas?
+> The only idea is that 2.4.x kernel turns off cache (L1 & L2) on
+> processor (on my cpu).  How can I check it?  Any ideas?
 
 We don't touch the caches like that.  First guess is to disable the ACPI
 support, because we've seen that do a million bogus things
 
 	- Alan Cox explaining the merits of ACPI on linux-kernel
 %
-&gt; ...  but i could not found any source code or
-&gt; information in Internet.
+> ...  but i could not found any source code or
+> information in Internet.
 
 How strange.  The kernel source code is definitely on the internet, and
 definitely contains drivers that implement internal layering -
@@ -1320,15 +1319,15 @@ nrdev, shaper, the sync cards, isdn
 
 	- Alan Cox on linux-kernel
 %
-&gt; ...  And aren't you one of the Preists of Text in
-&gt; /proc -- those of the belief in managing everything with 'cat' and 'vi'.
+> ...  And aren't you one of the Preists of Text in
+> /proc -- those of the belief in managing everything with 'cat' and 'vi'.
 
 No. That would be Al Viro.
 
 	- Alan Cox on linux-kernel
 %
 Ricky Beam wrote:
-&gt; So basically, you had no fucking clue
+> So basically, you had no fucking clue
 
 Since you're the expert, why won't we all wait for
 YOUR patch to fix the problem?  ;)
@@ -1336,7 +1335,7 @@ YOUR patch to fix the problem?  ;)
 	- Rik van Riel on linux-kernel
 %
 Russell King wrote:
-&gt; I'll look into it, produce a patch, but I'm not a VM hacker.
+> I'll look into it, produce a patch, but I'm not a VM hacker.
 
 You know what a pte is so you're a VM hacker ;-)
 
@@ -1355,7 +1354,7 @@ CONFIG_LLANFAIRPWLLGWYNGYLLGOGERYCHWYRNDROBWLLLLANTYSILIOGOGOGOCH
 
 	- Keith Owens on linux-kernel
 %
-&gt; Wouldn't it have made more sense to make the 'len' parameter an unsigned int?
+> Wouldn't it have made more sense to make the 'len' parameter an unsigned int?
 
 Oh yes.
 
@@ -1364,11 +1363,11 @@ to earth and stopped all wrans and made you king?
 
 	- Linus Torvalds on linux-kernel?
 %
-&gt; Sorry, at this point we are not allowed to publish the source code of the
-&gt; lcs and qeth drivers (due to the use of confidential hardware interface
-&gt; specifications).  We make those modules available only in binary form
-&gt; on our developerWorks web site.
-&gt;
+> Sorry, at this point we are not allowed to publish the source code of the
+> lcs and qeth drivers (due to the use of confidential hardware interface
+> specifications).  We make those modules available only in binary form
+> on our developerWorks web site.
+>
 Gosh.  I didn't know you guys were so advanced that you didn't use
 an electronic hardware interface!  Your 'hardware interface specifications'
 use magnetohydrodynamics, and they are top-secret, right?
@@ -1376,7 +1375,7 @@ use magnetohydrodynamics, and they are top-secret, right?
 	- Richard B. Johnson on linux-kernel
 %
 Linus Torvalds wrote:
-&gt; How the h*ll did you happen to actually notice this?
+> How the h*ll did you happen to actually notice this?
 
 Some combination of blind luck, curiosity, pride, and Obsessive
 Compulsive Disorder...
@@ -1394,8 +1393,8 @@ isn't just assembly, it's magic assembly.  ;)
 
 	- Paul Mackerras admiring Dave Miller's assembly on linux-kernel
 %
-&gt; That is reimplementing file system functionality in user space.
-&gt; I'm in doubts that this is considered good design...
+> That is reimplementing file system functionality in user space.
+> I'm in doubts that this is considered good design...
 
 Keeping things out of the kernel is good design.  Your block indirections
 are no different to other database formats.  Perhaps you think we should
@@ -1434,11 +1433,11 @@ But hey, at the end of the day, numbers rule.
  * Check for clue free BIOS implementations who use
  * the following QA technique
  *
- * [ Write BIOS Code ]&lt;------
+ * [ Write BIOS Code ]<------
  * | ^
- * &lt; Does it Compile &gt;----N--
+ * < Does it Compile >----N--
  * |Y ^
- * &lt; Does it Boot Win98 &gt;-N--
+ * < Does it Boot Win98 >-N--
  * |Y
  * [Ship It]
  *
@@ -1446,7 +1445,7 @@ But hey, at the end of the day, numbers rule.
 
 	- comment from arch/i386/kernel/dmi_scan.c
 %
-&lt;Peaker&gt; the difference between theory and practice is just a lot of work
+<Peaker> the difference between theory and practice is just a lot of work
 
 	- from #offtopic (the offtopic chat channel of #kernelnewbies)
 %
@@ -1456,16 +1455,16 @@ thread...
 	- Al Viro on linux-kernel
 %
 Eric Biederman wrote:
-&gt; That added to the fact that last time someone ran the numbers linux
-&gt; was considerably faster than the BSD for mm type operations when not
-&gt; swapping.  And this is the common case.
+> That added to the fact that last time someone ran the numbers linux
+> was considerably faster than the BSD for mm type operations when not
+> swapping.  And this is the common case.
 
 "Linux VM works wonderfully when nobody is using it"
 
 	- Alan Cox on linux-kernel
 %
 Andrea Arcangeli wrote:
-&gt; (infact I never had a single report), but well we'll verify that in
+> (infact I never had a single report), but well we'll verify that in
 
 Richard, is that you?  What had you done with real Andrea?
 
@@ -1490,8 +1489,8 @@ to get things right.  It has enough to do covering up for the hardware folk
 
 	- Alan Cox on linux-kernel
 %
-&gt; If you took my patch for it, PLEASE don't send it for inclusion; it's an
-&gt; evil hack and no longer needed when Intel fixes the bug in their 440GX bios.
+> If you took my patch for it, PLEASE don't send it for inclusion; it's an
+> evil hack and no longer needed when Intel fixes the bug in their 440GX bios.
 
 "when" is not a word I find useful about most bios bugs.  Try "if" or
 "less likely that being hit on the head by an asteroid"
@@ -1504,8 +1503,8 @@ is positively dangerous to the well being of non US citizens
 
 	- Alan Cox on linux-kernel
 %
-&gt; Yes *please*!  Finally we could introduce proper support for 64-bit
-&gt; inode numbers too!
+> Yes *please*!  Finally we could introduce proper support for 64-bit
+> inode numbers too!
 
 Right.  As soon as userland is audited for places where it uses int
 for storing inode numbers - just a couple of months after MS fixes
@@ -1533,7 +1532,7 @@ should be first against the wall.
 
 	- Al Viro on virus attacks
 %
-&gt; Can you explain this behaviour?
+> Can you explain this behaviour?
 
 Yes
 --
@@ -1564,7 +1563,7 @@ I actually use the trees I release and I want to keep my machines working
 
 	- Alan Cox recommending his -ac trees on linux-kernel
 %
-&lt;viro&gt; "scanf is tough" -- programmer Barbie...
+<viro> "scanf is tough" -- programmer Barbie...
 
 	- Al Viro on #kernelnewbies
 %
@@ -1651,16 +1650,16 @@ compliant?
 
 	- Erik Mouw on linux-arm-kernel
 %
-&gt; I got a kernel crash when dial up.  But I am using
-&gt; 2.4.0-rmk1 and pppd-2.4.1.  Is there any known ppp problem
-&gt; in that release?  Will it help if I upgrade my kernel?
+> I got a kernel crash when dial up.  But I am using
+> 2.4.0-rmk1 and pppd-2.4.1.  Is there any known ppp problem
+> in that release?  Will it help if I upgrade my kernel?
 
 Who knows, we're now many versions ahead, many bugs have been fixed, and
 a lot of work has been done.
 
 	- Russell King on linux-arm-kernel
 %
-&gt; In short, now you need filesystem versioning at a per-page level etc.
+> In short, now you need filesystem versioning at a per-page level etc.
 
 *ding* *ding* *ding* we have a near winner.  Remember, folks, Hurd had been
 started by people who not only don't understand UNIX, but detest it.
@@ -1671,8 +1670,8 @@ a new version, leaving one we'd opened unchanged".
 	- Al Viro on linux-kernel
 %
 HP LaserJetIII wrote:
-&gt; How to turn off faucet?
-&gt;
+> How to turn off faucet?
+>
 Now that's a good one!  Somebody's mucking with my print-server.
 Sorry.  I'm gonna get my gun....
 
@@ -1723,7 +1722,7 @@ certification then I might be able to find the time
 	- Alan Cox on linux-kernel
 %
 Chris Rumpf wrote:
-&gt; I would like to join this mailing list.
+> I would like to join this mailing list.
 
 you want all of us to give you a call saying you're welcome ??
 
@@ -1761,8 +1760,8 @@ lots of fun, but a little expensive and not really necessary.
 	- Jakob �stergaard about using XML in /proc file on linux-kernel
 %
 On Mon, 5 Nov 2001, Martin Dalecki wrote:
-&gt; Every BASTARD out there telling the world, that parsing ASCII formatted
-&gt; files
+> Every BASTARD out there telling the world, that parsing ASCII formatted
+> files
 
 What was your username, again?
 
@@ -1780,11 +1779,11 @@ a single menu called "things".
 
 	- Alan Cox on linux-kernel
 %
-From: Alan Cox &lt;alan@lxorguk.ukuu.org.uk&gt;
+From: Alan Cox <alan@lxorguk.ukuu.org.uk>
 Subject: Re: Yet another design for /proc.  Or actually /kernel.
 
-&gt; Here's my go at a new design for /proc.  I designed it from a userland
-&gt; point of view and tried not to drown myself into details.
+> Here's my go at a new design for /proc.  I designed it from a userland
+> point of view and tried not to drown myself into details.
 
 Did you have to change the subject line.  It makes it harder to kill file
 when people keep doing that
@@ -1793,16 +1792,16 @@ Your reasoning is .............................  (fill in the blank)
 
 	- Russell King on the linux-arm mailing list
 %
-&gt; There is an easy way for you, or even better, Linus to stop these
+> There is an easy way for you, or even better, Linus to stop these
 discussions:
-&gt; Just say, in unambigous words, what kind of patch you would accept, if any.
+> Just say, in unambigous words, what kind of patch you would accept, if any.
 
 .procmailrc one would do nicely.
 
 	- Al Viro on linux-kernel
 %
-&gt; ScanMail for Microsoft Exchange has detected virus-infected attachment(s).
-&gt; Warning to sender.  ScanMail detected a virus in an email attachment you
+> ScanMail for Microsoft Exchange has detected virus-infected attachment(s).
+> Warning to sender.  ScanMail detected a virus in an email attachment you
 sent.
 
 You are an idiot!  You have deleted a correctly-written important
@@ -1816,8 +1815,8 @@ resource contention, so he scales O(1).
 
 	- Robert Love on linux-kernel
 %
-&gt; ...  What will be next, maybe you disable to run non GPL
-&gt; executables under linux ?
+> ...  What will be next, maybe you disable to run non GPL
+> executables under linux ?
 
 Actually no.  We are researching how to stop trolls posting to the kernel
 list as our main AI project.
@@ -1825,8 +1824,8 @@ list as our main AI project.
 	- Alan Cox on linux-kernel
 %
 Tim Schmielau wrote:
-&gt; the appended patch enables 32 bit linux boxes to display more than
-&gt; 497.1 days of uptime.  No user land application changes are needed.
+> the appended patch enables 32 bit linux boxes to display more than
+> 497.1 days of uptime.  No user land application changes are needed.
 
 Thank you for doing this labor of love -
 
@@ -1836,8 +1835,8 @@ after March 23, 2003 -
 	- J Sloan on linux-kernel
 %
 Alexander Viro wrote:
-&gt; You mean that you are unable to read any of the core kernel source?
-&gt; That would explain a lot...
+> You mean that you are unable to read any of the core kernel source?
+> That would explain a lot...
 
 Were you born rude, or did you have to practice it?
 
@@ -1849,7 +1848,7 @@ to your patio door, either.
 
 	- H. Peter Anvin on IE6 problems with linux servers
 %
-&gt; Andrew explicitely did not want to use DMI scanner.
+> Andrew explicitely did not want to use DMI scanner.
 
 I didnt want intel to invent ACPI either.  The realities in both cases dont
 match the goals
@@ -1922,10 +1921,10 @@ indent does _not_ solve the problem of:
 	- Alexander Viro on coding style
 %
 Alexander Viro wrote:
-&gt; Al, -&gt;&lt;- close to setting up a Linux Kernel Hall of Shame - one with
+> Al, -><- close to setting up a Linux Kernel Hall of Shame - one with
 names of
-&gt; wankers (both individual and coprorat ones) responsible, their code and
-&gt; commentary on said code...
+> wankers (both individual and coprorat ones) responsible, their code and
+> commentary on said code...
 
 Please, please, please, I'm begging you, please do this.  It's the only way
 people learn quickly.  Being nice is great, but nothing works faster than
@@ -1938,7 +1937,7 @@ impeccable, but I'm not fond of his driver taste ;)
 
 	- Alan Cox on linux-kernel
 %
-&lt;wli&gt; sleep is such a waste of time
+<wli> sleep is such a waste of time
 
 	- excerpt from #offtopic (the #kernelnewbies off-topic channel)
 %
@@ -1947,7 +1946,7 @@ Sorry about off-topic.  I thought I was posting to Usenet.
 	- William Park on linux-kernel
 %
 Davide Libenzi wrote:
-&gt; It's not easy to get this right anyway.
+> It's not easy to get this right anyway.
 
 Balancing the pull and push mechanisms in the scheduler while trying
 to predict the future?  "Not easy" is an excellent description.
@@ -1965,10 +1964,10 @@ and Mexican border....  you are confusing them again 8)
 	- Alan Cox on linux-kernel
 %
 Daniel Phillips wrote:
-&gt; Hi Dana,
-&gt;
-&gt; Are you still interested in signing up for a kernel project?  I've got a good
-&gt; one I think would be perfect for you.
+> Hi Dana,
+>
+> Are you still interested in signing up for a kernel project?  I've got a good
+> one I think would be perfect for you.
 
 Hey Dana,
 
@@ -2025,10 +2024,10 @@ IMHO you have an overdeveloped faith in technology 8)
 	- Alan Cox on linux-kernel
 %
 Keith Owens wrote:
-&gt; And why is Al Viro's email address not in CREDITS or MAINTAINERS?  We
-&gt; should have somewhere to complain to ;).
+> And why is Al Viro's email address not in CREDITS or MAINTAINERS?  We
+> should have somewhere to complain to ;).
 
-&lt;shrug&gt; I _do_ read l-k.
+<shrug> I _do_ read l-k.
 
 	- Alexander Viro on linux-kernel
 %
@@ -2042,9 +2041,9 @@ I just wish I could spell.
 	- Andre Hedrick on linux-kernel
 %
  Andre Hedrick wrote:
-&gt;
-&gt; Lots of luck ...  please pass your crack pipe arounds so the rest of us
-&gt; idiots can see your vision or lack of ...
+>
+> Lots of luck ...  please pass your crack pipe arounds so the rest of us
+> idiots can see your vision or lack of ...
 
 Heh.  I think I must have passed it on to you long ago, and you never gave
 it back, you sneaky bastard ;)
@@ -2082,19 +2081,19 @@ brethren who insisted upon "laugh-at-able" instead of "laughable" and similar
 
 	- John Levon on the kernelnewbies list
 %
-&lt;wli&gt; perl bloweth, yea, and it sucketh, and lo, behold that when the
+<wli> perl bloweth, yea, and it sucketh, and lo, behold that when the
       perl goat bloweth, it bloweth goats, and sheep, and all the fauna and
       even some of the flora of the vineyard.
 
 	- William Lee Irwin on #kernelnewbies
 %
-&lt;SoulBlazer&gt; im just wondering if the "kernel people" (you know those small
+<SoulBlazer> im just wondering if the "kernel people" (you know those small
 	     elves that run around the insides of the kernel) recommend
 	     otherwise ..
-&lt;gregkh&gt; I'm a small elf?
-&lt;sarnold&gt; gregkh, heh, I'd hate to run into a large elf :)
+<gregkh> I'm a small elf?
+<sarnold> gregkh, heh, I'd hate to run into a large elf :)
 * gregkh is a tad larger than a small elf.
-&lt;jcopenha&gt; nah..  no large elves..  they just form a cluster =)
+<jcopenha> nah..  no large elves..  they just form a cluster =)
 
 	- Excerpt from #kernelnewbies
 %
@@ -2143,9 +2142,9 @@ to "everything is a file system" =)
 %
 Rusty Russell wrote:
 Jeff Garzik wrote:
-&gt; &gt; Call me picky but I like the name cond_resched() ;-)
-&gt;
-&gt; ...  And I prefer maybe_schedule().
+> > Call me picky but I like the name cond_resched() ;-)
+>
+> ...  And I prefer maybe_schedule().
 
 I made everybody unhappy by changing the names of _both_ "cond_yield()"
 and "need_yield()".  So there.
@@ -2156,15 +2155,15 @@ Nyaah, nyaah, nyaah.
 
 	Linus "management skill: saying 'Nyaah' really load" Torvalds
 %
-&gt; I can use usb-storage in 2.4.16,
-&gt; But can't use in 2.4.17
+> I can use usb-storage in 2.4.16,
+> But can't use in 2.4.17
 
 Ah, descriptive bug reports, that are so easy to figure out what is going on :)
 
 	- Greg Kroah-Hartman on linux-kernel
 %
-&lt;JimButton&gt; wli: i never understood why "brk()" has that name
-&lt;JimButton&gt; unix naming traditions sometimes resemble jugoslavian islands
+<JimButton> wli: i never understood why "brk()" has that name
+<JimButton> unix naming traditions sometimes resemble jugoslavian islands
 
 	- excerpt from #kernelnewbies
 %
@@ -2172,9 +2171,9 @@ You're sick.  I like you.
 
 	- Andrew Morton on linux-kernel
 %
-&gt; 1.  security, if you don't need any modules you can disable modules entirly
-&gt; and then it's impossible to add a module without patching the kernel first
-&gt; (the module load system calls aren't there)
+> 1.  security, if you don't need any modules you can disable modules entirly
+> and then it's impossible to add a module without patching the kernel first
+> (the module load system calls aren't there)
 
 Oh, please...  Give me permissions sufficient to make these syscalls
 and in a couple of minutes your kernel will be replaced with ELIZA.
@@ -2204,7 +2203,7 @@ but let's take it to #offtopic, shall we?
 
 	- Pavel Machek on linux-kernel
 %
-   From: Alan Cox &lt;alan@lxorguk.ukuu.org.uk&gt;
+   From: Alan Cox <alan@lxorguk.ukuu.org.uk>
 
    Vomit.  How about adding a dma_addr_t %code to the printk function ?
 
@@ -2212,9 +2211,9 @@ And gcc will discover this via what?  Osmosis perhaps?  :-)
 
 	- Dave Miller on linux-kernel
 %
-&gt; &gt; Or even XML.  Ouch!  No need to throw things at me!
-&gt;
-&gt; It seems they would be thrown!  XML in kernel is too much.  OpenOffice and
+> > Or even XML.  Ouch!  No need to throw things at me!
+>
+> It seems they would be thrown!  XML in kernel is too much.  OpenOffice and
 
 They won't be thrown.  They will be slowly driven under the nails, so that
 victim could experience the joy equal to that of dealing with XML.
@@ -2228,15 +2227,15 @@ our forrestals.
 	- Pete Zaitcev on linux-kernel
 %
 Matti Aarnio wrote:
-&gt; VGER had a locally caused network constipation problem
-&gt; from Sat/Sun evening, until less than an hour ago.
+> VGER had a locally caused network constipation problem
+> from Sat/Sun evening, until less than an hour ago.
 
 Can I just remind everyone that you were in the middle of a very
 entertaining CML2 flamewar when the list went down?
 
 	- acrimon.beet@gmx.co.uk on linux-kernel
 %
-&gt; Does this problem still exist on 64-bit machines?
+> Does this problem still exist on 64-bit machines?
 
 Not in the same way - you'll need a lot of years before you worry about it.
 
@@ -2284,26 +2283,26 @@ why it's such a great language ;-)
 	- Jes Sorensen on linux-kernel
 %
 John Levon wrote:
-&gt; whilst you're correct (pre-emption has made everything harder), there's
-&gt; not much point moaning about it, since it's in linus' kernel now.  So
-&gt; why bother ?
+> whilst you're correct (pre-emption has made everything harder), there's
+> not much point moaning about it, since it's in linus' kernel now.  So
+> why bother ?
 
 everyone needs a hobby.
 
 	- Victor Yodaiken on linux-kernel
 %
 Alexander Viro wrote:
-&gt; &gt; Patch 1 adds alloc_super and destroy_super methods to struct
-file_system.  A&gt;
-&gt; Vetoed.
+> > Patch 1 adds alloc_super and destroy_super methods to struct
+file_system.  A>
+> Vetoed.
 
 Al your mailer appears to have cut off the second paragraph, the one which
 I assume started with "Because ..."
 
 	- Alan Cox on linux-kernel
 %
-&lt;movement&gt; d'oh, I guess that explains the system slowness
-&lt;movement&gt; cat /dev/zero running for days :P
+<movement> d'oh, I guess that explains the system slowness
+<movement> cat /dev/zero running for days :P
 
 	- John Levon on #offtopic (the off-topic channel for #kernelnewbies)
 %
@@ -2314,8 +2313,8 @@ still think's that it's a good idea...
 	- Martin Dalecki on linux-kernel
 %
 Mark Zealey wrote:
-&gt; Actually 3 modes, real, pmode and vm86 mode which is a real mode emulation
-&gt; with all the security of pmode.  This is how stuff like dosemu works.
+> Actually 3 modes, real, pmode and vm86 mode which is a real mode emulation
+> with all the security of pmode.  This is how stuff like dosemu works.
 
 Yep, i wonder if you could call SMM (System Management Mode) #4 then, but
 thats another weird one.  I think there should be a SPM (Sane Processor
@@ -2325,14 +2324,14 @@ with our coding ;)
 	- Zwane Mwaikambo on kernelnewbies
 %
 [...] If you want to hack on plip ping
-Tim Waugh &lt;twaugh@redhat.com&gt; he's definitely as far from the Al Viro end
+Tim Waugh <twaugh@redhat.com> he's definitely as far from the Al Viro end
 of polite computing as you can get and can probably tell you what bits you
 need to tweak
 
 	- Alan Cox on linux-kernel
 %
 yodaiken@fsmlabs.com wrote:
-&gt; I thought we were into this for the pure technical thrill-)
+> I thought we were into this for the pure technical thrill-)
 
 I don't know about you, but to me the difference between technological
 thrill and masturbation is that real technology actually matters to real
@@ -2347,31 +2346,31 @@ people.
 	- Linus Torvalds on linux-kernel
 %
 Linux is alread carrier (pigeon) grade
-		-&gt; www.blug.linux.no/rfc1149/
+		-> www.blug.linux.no/rfc1149/
 
 	- Alan Cox on linux-kernel
 %
 RIMki@sky.seed.net.tw wrote:
-&gt;1.  =A4=EB=A6=AC=A4J 5-10 =B8U
-&gt;2.  =A4@=A4H=A7Y=A5i=B6}=A9=B1 , =A4=A3=A5=B2=A6h=BD=D0=A4H=A4=E2 !
-&gt;3.  =A5=FE=AC=D9=A5=D8=ABe=A6@=A6=B3 50
+>1.  =A4=EB=A6=AC=A4J 5-10 =B8U
+>2.  =A4@=A4H=A7Y=A5i=B6}=A9=B1 , =A4=A3=A5=B2=A6h=BD=D0=A4H=A4=E2 !
+>3.  =A5=FE=AC=D9=A5=D8=ABe=A6@=A6=B3 50
 =B4X=AD=D3=A5[=B7=F9=A6=A8=A5\=AA=BA=AE=D7=A8=D2 !
-&gt;4.  =AC=B5=C2=FB=A4f=A8=FD=BFW=AFS ,
+>4.  =AC=B5=C2=FB=A4f=A8=FD=BFW=AFS ,
 =C5=FD=AB=C8=A4H=A6Y=A4F=A6^=A8=FD=B5L=BDa !!
 
 You forgot:
 
 5.  =FE=ED=C0=ED=BA=BE=DE=AD=BE=EF
 
-&gt;=BD=D0=B0=D1=C6[=A7=DA=AD=CC=AA=BA=BA=F4=A7} :
-&gt;
-&gt;http://211.78.42.181:5168
+>=BD=D0=B0=D1=C6[=A7=DA=AD=CC=AA=BA=BA=F4=A7} :
+>
+>http://211.78.42.181:5168
 
 http://127.0.0.1:69/
 
 	- Stevie O on linux-kernel
 %
-&lt;ajh&gt; I always viewed HURD development like the Special Olympics of free
+<ajh> I always viewed HURD development like the Special Olympics of free
 software.
 
 	- Is Hurd a opponent to Linux?
@@ -2385,9 +2384,9 @@ dd if=/dev/zero of=/dev/hda to test your performances of hda ...
 
 	- Samuel Maftoul giving some sane advice
 %
-&gt; maximum memory exceeding the available tmpfs as long as they don't all need
-&gt; all that memory at once.  And, if they do, the patch I just posted will let
-&gt; them deal fairly sanely with the situation.
+> maximum memory exceeding the available tmpfs as long as they don't all need
+> all that memory at once.  And, if they do, the patch I just posted will let
+> them deal fairly sanely with the situation.
 
 And the address space management stuff in the -ac tree will do all that and
 more without force allocating pages and regardless of what other apps do
@@ -2411,30 +2410,30 @@ useful evidence.
 
 	- Richard Johnson on obfuscating file access time
 %
-&lt;riel&gt; google rules
-&lt;google&gt; rules: http://www.law.cornell.edu/rules/fre/overview.html
+<riel> google rules
+<google> rules: http://www.law.cornell.edu/rules/fre/overview.html
 
 	- Rik van Riel chatting with the bots on #kernelnewbies
 %
-&gt; If you know that the above works only with [zk(ba)]sh, I don't know
-&gt; what point you would be making by stating that it doesn't work with
-&gt; tcsh.
+> If you know that the above works only with [zk(ba)]sh, I don't know
+> what point you would be making by stating that it doesn't work with
+> tcsh.
 
 Shhhh, you're ruining the free-software-fans-bash-Larry show.
 
 	- Rik van Riel on linux-kernel
 %
-&lt;SoulBlazer&gt; i think im going to start the "Save our Kernel Maintainers"
+<SoulBlazer> i think im going to start the "Save our Kernel Maintainers"
 fund
-&lt;SoulBlazer&gt; Shave even
-&lt;JALH&gt; heh
-&lt;SoulBlazer&gt; i wonder how much cash it would take to get AC shaved
-&lt;SoulBlazer&gt; him and mad dog
-&lt;SoulBlazer&gt; and Dave miller
-&lt;SoulBlazer&gt; maybe even Stallman
-&lt;SoulBlazer&gt; i dont think stallman would take cash tho
-&lt;SoulBlazer&gt; maybe 'utopian currency of friendship'
-&lt;JALH&gt; SoulBlazer, I think the shares in the company supplying the
+<SoulBlazer> Shave even
+<JALH> heh
+<SoulBlazer> i wonder how much cash it would take to get AC shaved
+<SoulBlazer> him and mad dog
+<SoulBlazer> and Dave miller
+<SoulBlazer> maybe even Stallman
+<SoulBlazer> i dont think stallman would take cash tho
+<SoulBlazer> maybe 'utopian currency of friendship'
+<JALH> SoulBlazer, I think the shares in the company supplying the
        razors/hedge trimmers would rocket
 
 	- excerpt from #offtopic, the #kernelnewbies off-topic channel
@@ -2444,7 +2443,7 @@ maintenance event.  I tend to trust bearded kernel hackers from Wales.
 
 	- Bert Hubert on linux-kernel
 %
-&lt;qunitela&gt; hch: I hope that I have learned to spell your name by now :)
+<qunitela> hch: I hope that I have learned to spell your name by now :)
 * qunitela decides to spell right his own name
 [+] qunitela now known as quintela
 
@@ -2456,9 +2455,9 @@ confused.
 
 	- Linus' last word on Free Software vs OpenSource..
 %
-&gt; Remember: we're not the Judean People's Front, we're the People's
-&gt; Front of Judea.  Or maybe we're the Popular Front for the Liberation
-&gt; of Judea.  I get confused.
+> Remember: we're not the Judean People's Front, we're the People's
+> Front of Judea.  Or maybe we're the Popular Front for the Liberation
+> of Judea.  I get confused.
 
 No, we're the Libertarian Front for the People of Judea.  Get it right.
 
@@ -2494,14 +2493,14 @@ bring flowers next time.
 
 	- Linus Torvalds on linux-kernel
 %
-&lt;billh&gt; That was cute.
-&lt;billh&gt; 2.5.30 just flat out crashed early during the boot cycle.
-&lt;ahu&gt; 2.5 is real good at that sort of thing
+<billh> That was cute.
+<billh> 2.5.30 just flat out crashed early during the boot cycle.
+<ahu> 2.5 is real good at that sort of thing
 
 	- Excerpt from #offtopic (the offtopic chat channel of #kernelnewbies)
 %
 Hell.Surfers@cwctv.net wrote:
-&gt; YES THEY ARE SENT TO THE LIST, WOULD YOU LIKE COPIES?  T hey are dangerous,
+> YES THEY ARE SENT TO THE LIST, WOULD YOU LIKE COPIES?  T hey are dangerous,
 they have+gotten people KILLED.
 
 I would suggest that anyone stupid enough to respond to a Nigerian spam
@@ -2523,10 +2522,10 @@ most of the software is.
 
 	- Al Viro on linux-kernel
 %
-&gt; I know this is offtopic, but the spam problem is getting worse,
-&gt; could the linux-kernel mail guy/gal, do something,
-&gt; the nigerian scams are actually dangerous..
-&gt; ^^^^^^^^^^^
+> I know this is offtopic, but the spam problem is getting worse,
+> could the linux-kernel mail guy/gal, do something,
+> the nigerian scams are actually dangerous..
+> ^^^^^^^^^^^
 
 Really?  That's how I made my first 32-million dollars.  Some poor
 lady need my back account information so she could wire her dead
@@ -2535,10 +2534,10 @@ husband's money.  Works everytime.
 	- this is where Richard B. Johnson got his money from,
 %
 * willy posts to /.  : TMTA Close To Inking Deal With Playboy
-&lt;riel&gt; willy: conserving battery power for other uses ?
-&lt;riel&gt; oh wait, that's the _other_ bunny
-&lt;willy&gt; riel: laptops are very important to that industry ;-)
-&lt;hpa&gt; What's even more amusing is that TMTA's native instruction set
+<riel> willy: conserving battery power for other uses ?
+<riel> oh wait, that's the _other_ bunny
+<willy> riel: laptops are very important to that industry ;-)
+<hpa> What's even more amusing is that TMTA's native instruction set
 actually
       has a PORN instruction
 %
@@ -2573,25 +2572,25 @@ Viro sees your sample driver...]
 
 	- Jeff Garzik on linux-kernel
 %
-&lt;ms&gt; ac didn't have enough money/time to train his 1000 gnomes in using bk
-&lt;Lathi&gt; fair enough :-)
+<ms> ac didn't have enough money/time to train his 1000 gnomes in using bk
+<Lathi> fair enough :-)
 
 	- excerpt from a bitkeeper discussion on #kernelnewbies
 %
-&lt;viro&gt; carldani: don't go there unless you want to become _really_ bitter
+<viro> carldani: don't go there unless you want to become _really_ bitter
 and
        cynical - if you are not right now, you will be
-&lt;zwane&gt; carldani: dunno, take your puk^H^Hick
-&lt;zwane&gt; carldani: if kernel hacking was food, drivers/ would be kruft dinner
+<zwane> carldani: dunno, take your puk^H^Hick
+<zwane> carldani: if kernel hacking was food, drivers/ would be kruft dinner
 ;)
-&lt;viro&gt; carldani: working with drivers/* is a moral equivalent of working
+<viro> carldani: working with drivers/* is a moral equivalent of working
        helldesk on an ISP
 %
 Rusty Russell said:
-&gt;&gt; May I respectfully disagree again?
-&gt;
-&gt; Thoughtful and respecful criticism?  I didn't think that was
-&gt; allowed on linux-kernel any more?  8)
+>> May I respectfully disagree again?
+>
+> Thoughtful and respecful criticism?  I didn't think that was
+> allowed on linux-kernel any more?  8)
 
 Sorry about that.  Won't happen again, I promise.
 
@@ -2617,34 +2616,34 @@ has a kernel panic...  with the Windows blue screen of death on the screen.
 
 	- Rik van Riel on linux-kernel
 %
-&lt;Spyro&gt; the scheduler is evil voodoo :)
-&lt;erikm&gt; "here be devils"
-&lt;erikm&gt; ehm, dragons ;)
-&lt;beak&gt; :/usr/src/linux-2.4.21-rc5$ rgrep -r -i dragons *
-&lt;beak&gt; arch/cris/drivers/serial.c:
+<Spyro> the scheduler is evil voodoo :)
+<erikm> "here be devils"
+<erikm> ehm, dragons ;)
+<beak> :/usr/src/linux-2.4.21-rc5$ rgrep -r -i dragons *
+<beak> arch/cris/drivers/serial.c:
        * There be dragons in this 3k+ line driver
-&lt;beak&gt; drivers/block/paride/pd.c:
+<beak> drivers/block/paride/pd.c:
        /* WARNING: here there may be dragons.  reset() applies to both drives,
-&lt;beak&gt; that's it.  no more dragons, and none in scheduler
+<beak> that's it.  no more dragons, and none in scheduler
 
 	- excerpt from #kernelnewbies
 %
-&lt;kull&gt; what about a USB toilet with policy based flushing
+<kull> what about a USB toilet with policy based flushing
 
 	- excerpt from #kernelnewbies
 %
-&lt;zwane&gt; you guys blame acpi too much ;)
-&lt;erikm&gt; zwane: if you insist we'll be glad to blame you
-&lt;erikm&gt; zwane: please boot with the "nozwane" option :)
-&lt;zwane&gt; that will lead to an implosion of the universe
-&lt;zwane&gt; and possibly cpu damage
+<zwane> you guys blame acpi too much ;)
+<erikm> zwane: if you insist we'll be glad to blame you
+<erikm> zwane: please boot with the "nozwane" option :)
+<zwane> that will lead to an implosion of the universe
+<zwane> and possibly cpu damage
 
 	- excerpt from #kernelnewbies
 %
 Greg KH wrote:
-&gt; Please do not add "changelog" type comments to files that do not already
-&gt; have changelogs in them.  They are unmaintainable within the kernel and
-&gt; do nothing to help anyone out.
+> Please do not add "changelog" type comments to files that do not already
+> have changelogs in them.  They are unmaintainable within the kernel and
+> do nothing to help anyone out.
 
 Ok - that was just my lame attempt to grafitti my name into the kernel :-)
 
@@ -2655,14 +2654,14 @@ Outlook, n.:
 
 	- Kurt Wall on linux-kernel
 %
-&lt;DannyB&gt; One Linus to rule them all, One kernel.org to find them,
+<DannyB> One Linus to rule them all, One kernel.org to find them,
 	 One idiot to bring them all, and addpatches to bind them
 
 	 - excerpt from #offtopic
 %
-&gt; A low level user can delete a file owned by root and belonging to group
-&gt; root even if the files permissions are 744.  This is not in agreement
-&gt; with Unix, and is a major security issue.
+> A low level user can delete a file owned by root and belonging to group
+> root even if the files permissions are 744.  This is not in agreement
+> with Unix, and is a major security issue.
 
 No, it's your well-earned F for Unix 101.  You should focus on Unix permissions
 model in general and sticky bit in particular when you take the course again.
@@ -2671,7 +2670,7 @@ Have a nice semester.
 	- Al Viro on linux-kernel
 %
 Lisa R. Nelson wrote:
-&gt; So much for a friendly group.
+> So much for a friendly group.
 
 You really have seen nothing yet :-)
 
@@ -2701,8 +2700,8 @@ just before halloween.
 	- Dave Jones announcing the 2.6 post-halloween document on linux-kernel
 %
 Davide Libenzi wrote:
-&gt; So it didn't change much.  You've *always* been a bastard when it comes to
-&gt; patches :-)
+> So it didn't change much.  You've *always* been a bastard when it comes to
+> patches :-)
 
 *Snif*.  I don't know what to say.  Thank you.  Your kind words make it all
 worth it.
@@ -2756,8 +2755,8 @@ We'll see who blinks first.
 			Linus "payback time" Torvalds
 %
 "Jinu M." wrote:
-&gt; I wanted to know if it is possible to write a Linux device driver
-&gt; (kernel loadable module) using C++.
+> I wanted to know if it is possible to write a Linux device driver
+> (kernel loadable module) using C++.
 
 It's possible, but like having sex with a cactus
 
@@ -2805,9 +2804,9 @@ with our competition and then come back later...
 	- Daniel Egger on linux-kernel
 %
 Patrick Burke wrote:
-&gt; Patrick Burke with Navistaff.  I am currently looking for hardcore Unix
-&gt; networking developers for a top NYC area ibank.  Know anyone who might be
-&gt; interested?
+> Patrick Burke with Navistaff.  I am currently looking for hardcore Unix
+> networking developers for a top NYC area ibank.  Know anyone who might be
+> interested?
 
 [SNIPPED...]
 
@@ -2816,18 +2815,18 @@ errors when I compiled.
 
 	- Richard B. Johnson on linux-kernel
 %
-&lt;c0ywulff&gt; anyone knows S_BIAS
-&lt;RoyK&gt; ./include/linux/fs.h:#define S_BIAS (1&lt;&lt;30)
-&lt;c0ywulff&gt; RoyK: what is it
-&lt;RoyK&gt; it's harry potter's new spell
+<c0ywulff> anyone knows S_BIAS
+<RoyK> ./include/linux/fs.h:#define S_BIAS (1<<30)
+<c0ywulff> RoyK: what is it
+<RoyK> it's harry potter's new spell
 
 	- excerpt from #kernelnewbies
 %
 Joerg Schilling wrote:
-&gt; Alan Cox &lt;alan@lxorguk.ukuu.org.uk&gt; wrote:
-&gt; &gt; Wrong (as usual)
-&gt;
-&gt; Useless as usual :-(
+> Alan Cox <alan@lxorguk.ukuu.org.uk> wrote:
+> > Wrong (as usual)
+>
+> Useless as usual :-(
 
 Unlike you I spend some of my time looking at large real world Linux
 installations.
@@ -2837,9 +2836,9 @@ installations.
 	- Alan Cox on linux-kernel
 	  (in a massive lkml-crowd vs.  Jrg Schilling flamewar)
 %
-Joerg Schilling &lt;schilling@fokus.fraunhofer.de&gt; said:
-&gt; And the wrong decision could have even be avoided if people did contact me
-&gt; before they did act....
+Joerg Schilling <schilling@fokus.fraunhofer.de> said:
+> And the wrong decision could have even be avoided if people did contact me
+> before they did act....
 
 Exactly!  They should also contact me and ask politely each time they
 consider a change if I'd allow it.  Really.  The nerve these guys have.
@@ -2849,9 +2848,9 @@ Unbelievable.
 	  (in a massive lkml-crowd vs.  Jrg Schilling flamewar)
 %
 Hans Reiser wrote:
-&gt; How old are you?  I thought you were the guy at Linux Tag with fashion
-&gt; oriented hair who gave a talk on his XFS work?  Did I confuse you with
-&gt; someone else?
+> How old are you?  I thought you were the guy at Linux Tag with fashion
+> oriented hair who gave a talk on his XFS work?  Did I confuse you with
+> someone else?
 
 --- mm1-2.6.9-rc1.orig/CREDITS 2004-08-26 10:37:57.424567967 -0700
 +++ mm1-2.6.9-rc1/CREDITS 2004-08-26 11:35:24.977260109 -0700
@@ -2871,10 +2870,10 @@ Hans Reiser wrote:
 	-- William Lee Irwin on linux-kernel
 %
 Dave Jones wrote:
-&gt; You seem to be under the deluded illusion that all kernel hackers
-&gt; do what they do for the money[1].
-&gt;
-&gt; [1] Whereas everyone knows, its all about the fast cars and chicks.
+> You seem to be under the deluded illusion that all kernel hackers
+> do what they do for the money[1].
+>
+> [1] Whereas everyone knows, its all about the fast cars and chicks.
 
 I dunno about you, but I'm in it for the beer.
 
@@ -2890,7 +2889,7 @@ This driver conforms to Linus Confidence Level 2:
 	-- Jeff Garzik on linux-kernel
 %
 linux-os wrote:
-&gt; Bullshit.  Read my post to Alan.  Learn something.
+> Bullshit.  Read my post to Alan.  Learn something.
 
 Yes I've read your post, I've learned you are an idiot.
 
@@ -2904,7 +2903,7 @@ get there with ease.
 	  Bartlomiej Zolnierkiewicz
 %
 Andrew Morton wrote:
-&gt; I'll take patches from anyone ;)
+> I'll take patches from anyone ;)
 
 You'll never live it down.  Once you get a name for being easy, you'll
 always be known as Andrew "patch-ho" Morton.

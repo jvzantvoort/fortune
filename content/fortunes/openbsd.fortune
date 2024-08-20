@@ -1772,7 +1772,7 @@ Ask five economists and you'll get five different explanations (six if
 one went to Harvard).
 		-- Edgar R. Fiedler
 %
-Ask not for whom the &lt;CONTROL-G&gt; tolls.
+Ask not for whom the <CONTROL-G> tolls.
 %
 Ask Not for whom the Bell Tolls, and You will Pay only the
 Station-to-Station rate.
@@ -1974,7 +1974,7 @@ Beifeld's Principle:
 	(2) his wife,
 	(3) a better looking and richer male friend.
 %
-"Being disintegrated makes me ve-ry an-gry!" &lt;huff, huff&gt;
+"Being disintegrated makes me ve-ry an-gry!" <huff, huff>
 %
 Bell Labs Unix -- Reach out and grep someone.
 %
@@ -2010,14 +2010,14 @@ Best of all is never to have been born.  Second best is to die soon.
 better !pout !cry
 better watchout
 lpr why
-santa claus &lt; north pole &gt; town
+santa claus < north pole > town
 
-cat /etc/passwd &gt; list
+cat /etc/passwd > list
 ncheck list
 ncheck list
-cat list | grep naughty &gt; nogiftlist
-cat list | grep nice &gt; giftlist
-santa claus &lt; north pole &gt; town
+cat list | grep naughty > nogiftlist
+cat list | grep nice > giftlist
+santa claus < north pole > town
 
 who | grep sleeping
 who | grep awake
@@ -3062,10 +3062,10 @@ mon."] The vain attempt to avoid errors by inactivity.  "Nothing will
 come of nothing: speak again." -- King Lear.
 		-- Stan Kelly-Bootle, "The Devil's DP Dictionary"
 %
-#define BITCOUNT(x) (((BX_(x)+(BX_(x)&gt;&gt;4)) & 0x0F0F0F0F) % 255)
-#define BX_(x) ((x) - (((x)&gt;&gt;1)&0x77777777) \
-			     - (((x)&gt;&gt;2)&0x33333333) \
-			     - (((x)&gt;&gt;3)&0x11111111))
+#define BITCOUNT(x) (((BX_(x)+(BX_(x)>>4)) & 0x0F0F0F0F) % 255)
+#define BX_(x) ((x) - (((x)>>1)&0x77777777) \
+			     - (((x)>>2)&0x33333333) \
+			     - (((x)>>3)&0x11111111))
 
 		-- really weird C code to count the number of bits in a word
 %
@@ -3459,7 +3459,7 @@ shot at mine, over there."
 %
 During the next two hours, the system will be going up and down several
 times, often with lin~po_~{po ~poz~ppo\~{ o n~po_~{o[po ~y
-oodsou&gt;#w4k**n~po_~{ol;lkld;f;g;dd;po\~{o
+oodsou>#w4k**n~po_~{ol;lkld;f;g;dd;po\~{o
 %
 "Dying is a very dull, dreary affair.  And my advice to you is to have
 nothing whatever to do with it."
@@ -6141,7 +6141,7 @@ much trial and error, I have found that the best direction for a hot
 tub to face is up.
 		-- Dave Barry, "The Taming of the Screw"
 %
-I think it is true for all _n.  I was just playing it safe with _n &gt;= 3
+I think it is true for all _n.  I was just playing it safe with _n >= 3
 because I couldn't remember the proof.
 		-- Baker, Pure Math 351a
 %
@@ -9092,11 +9092,11 @@ Mythology, n.:
 	distinguished from the true accounts which it invents later.
 		-- Ambrose Bierce, "The Devil's Dictionary"
 %
-   n = ((n &gt;&gt; 1) & 0x55555555) | ((n &lt;&lt; 1) & 0xaaaaaaaa);
-   n = ((n &gt;&gt; 2) & 0x33333333) | ((n &lt;&lt; 2) & 0xcccccccc);
-   n = ((n &gt;&gt; 4) & 0x0f0f0f0f) | ((n &lt;&lt; 4) & 0xf0f0f0f0);
-   n = ((n &gt;&gt; 8) & 0x00ff00ff) | ((n &lt;&lt; 8) & 0xff00ff00);
-   n = ((n &gt;&gt; 16) & 0x0000ffff) | ((n &lt;&lt; 16) & 0xffff0000);
+   n = ((n >> 1) & 0x55555555) | ((n << 1) & 0xaaaaaaaa);
+   n = ((n >> 2) & 0x33333333) | ((n << 2) & 0xcccccccc);
+   n = ((n >> 4) & 0x0f0f0f0f) | ((n << 4) & 0xf0f0f0f0);
+   n = ((n >> 8) & 0x00ff00ff) | ((n << 8) & 0xff00ff00);
+   n = ((n >> 16) & 0x0000ffff) | ((n << 16) & 0xffff0000);
 
 		-- C code which reverses the bits in a word.
 %
@@ -10735,7 +10735,7 @@ QUOTE OF THE DAY:
 %
 "Qvid me anxivs svm?"
 %
-QWERT (kwirt), n.  [MW &lt; OW qwertyuiop, a thirteenth]:
+QWERT (kwirt), n.  [MW < OW qwertyuiop, a thirteenth]:
 	1.  a unit of weight equal to 13 poiuyt avoirdupois (or 1.69
 kiloliks), commonly used in structural engineering; 2.  [colloq.] one
 thirteenth the load that a fully grown sligo can carry; 3.  [anat.] a
@@ -11875,12 +11875,12 @@ infinitum -- which is why we're always starting over.
   \__ | | | o o
      | | | | ______ ~~~~ _____
      | |__/ | / ___--\\ ~~~ __/_____\__
-     | ___/ / \--\\ \\ \ ___ &lt;__ x x __\
+     | ___/ / \--\\ \\ \ ___ <__ x x __\
      | | / /\\ \\ )) \ ( " )
-     | | -------(----&gt;&gt;(@)--(@)-------\----------&lt; &gt;-----------
+     | | -------(---->>(@)--(@)-------\----------< >-----------
      | | // | | //__________ / \ ____) (___ \\
      | | // __|_| ( --------- ) //// ______ /////\ \\
-	 // | ( \ ______ / &lt;&lt;&lt;&lt; &lt;&gt;-----&lt;&lt;&lt;&lt;&lt; / \\
+	 // | ( \ ______ / <<<< <>-----<<<<< / \\
 	// ( ) / / \` \__ \\
        //-------------------------------------------------------------\\
 
