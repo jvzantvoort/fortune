@@ -6,4 +6,4 @@
 
 go implementation of fortune (I was bored).
 
-Fortune files obtained from [fortunes.cat-v.org](http://fortunes.cat-v.org/).
+Fortune files obtained from [fortunes.cat-v.org](http://fortunes.cat-v.org/) and [fortune-mod](https://github.com/shlomif/fortune-mod)
