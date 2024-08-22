@@ -39,13 +39,26 @@ jobs:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
         run: |
-          CGO_ENABLED=0 GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch  }} go build -trimpath -o $GITHUB_WORKSPACE/build/${{ matrix.goos }}.${{ matrix.goarch }} .
+          CGO_ENABLED=0 GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch }} \
+            go build -trimpath -o $GITHUB_WORKSPACE/build/${{ matrix.goos }}.${{ matrix.goarch }} \
+            ./cmd/fortune
+          CGO_ENABLED=0 GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch }} \
+            go build -trimpath -o $GITHUB_WORKSPACE/build/${{ matrix.goos }}.${{ matrix.goarch }} \
+            ./cmd/fortune-server
 
       - name: Create package
         id: package
         run: |
-          PACKAGE_NAME=fortune.${GITHUB_REF#refs/tags/fortune-}.${{ matrix.goos }}.${{ matrix.goarch }}.tar.gz
-          tar -czvf $PACKAGE_NAME -C build/${{ matrix.goos }}.${{ matrix.goarch }} .
+          if [ "${{ matrix.goos }}" != "windows" ]
+          then
+            PACKAGE_NAME=fortune.${GITHUB_REF#refs/tags/fortune-}.${{ matrix.goos }}.${{ matrix.goarch }}.tar.gz
+            tar -czvf $PACKAGE_NAME -C build/${{ matrix.goos }}.${{ matrix.goarch }} .
+          else
+            PACKAGE_NAME=fortune.${GITHUB_REF#refs/tags/fortune-}.${{ matrix.goos }}.${{ matrix.goarch }}.zip
+            pushd "build/${{ matrix.goos }}.${{ matrix.goarch }}"
+            find . -type f | zip -@ ../../$PACKAGE_NAME
+            popd
+          fi
           echo ::set-output name=name::${PACKAGE_NAME}
 
       - name: Upload asset

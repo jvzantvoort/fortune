@@ -14,6 +14,15 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        object: [fortune, fortune-server]
+        goos: [linux, darwin, windows]
+        goarch: [386, amd64, arm64]
+        exclude:
+          - goos: darwin
+            goarch: 386
+
     steps:
     - name: Check out code into the Go module directory
       uses: actions/checkout@v4
@@ -25,5 +34,10 @@ jobs:
       id: go
 
     - name: Build
+      env:
+        GOOS: ${{ matrix.goos }}
+        GOARCH: ${{ matrix.goarch }}
       run: |
-        CGO_ENABLED=0 GOOS="linux" GOARCH="amd64" go build -v -o build/fortune .
+        CGO_ENABLED=0 GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch }} \
+          go build -trimpath -o $GITHUB_WORKSPACE/build/${{ matrix.goos }}.${{ matrix.goarch }} \
+          ./cmd/${{ matrix.object }}
