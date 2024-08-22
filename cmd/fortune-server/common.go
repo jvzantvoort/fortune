@@ -13,5 +13,5 @@ func GetFortune() string {
 
 	rows := content.ReadFortune(filename)
 	retv := rows[rand.Intn(len(rows))]
-	return retv
+	return retv + "\n"
 }
