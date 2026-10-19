@@ -57,7 +57,6 @@ func ReadFortune(name string) []string {
 	}
 	if len(buffer) != 0 {
 		retv = append(retv, strings.Join(buffer, "\n"))
-		buffer = nil
 	}
 	return retv
 }
