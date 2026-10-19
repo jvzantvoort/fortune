@@ -1,0 +1,13 @@
+version: 2
+
+builds:
+  - id: fortune
+    main: ./cmd/fortune
+    binary: fortune
+    goos: [linux, darwin, windows]
+    goarch: [amd64, arm64]
+  - id: fortune-server
+    main: ./cmd/fortune-server
+    binary: fortune-server
+    goos: [linux, darwin, windows]
+    goarch: [amd64, arm64]
