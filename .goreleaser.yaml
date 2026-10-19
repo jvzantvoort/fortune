@@ -20,20 +20,23 @@ builds:
 sboms:
   - artifacts: archive
 
-dockers_v2:
-  - ids: [fortune, fortune-server]
-    dockerfile: Dockerfile
-    images:
-      - ghcr.io/jvzantvoort/fortune
+# Container image for fortune-server, built with ko: no Dockerfile or Docker
+# daemon needed. ko uses a distroless base, runs as non-root and attaches an
+# SPDX SBOM to the image.
+kos:
+  - build: fortune-server
+    repositories:
+      - ghcr.io/jvzantvoort/fortune-server
+    bare: true
     tags:
       - "{{ .Version }}"
       - latest
     platforms:
       - linux/amd64
       - linux/arm64
-    sbom: true
+    sbom: spdx
     labels:
-      org.opencontainers.image.title: "{{ .ProjectName }}"
+      org.opencontainers.image.title: fortune-server
       org.opencontainers.image.description: "Fortune cookies over HTTP"
       org.opencontainers.image.source: "{{ .GitURL }}"
       org.opencontainers.image.version: "{{ .Version }}"

@@ -1,0 +1,69 @@
+# Deploy with ko, which builds the image, pushes it to $KO_DOCKER_REPO and
+# replaces the ko:// reference with its digest:
+#
+#   KO_DOCKER_REPO=ghcr.io/<you> ko apply --bare -f deploy/kubernetes/
+#
+# To use a released image instead, replace the ko:// reference with
+# ghcr.io/jvzantvoort/fortune-server:<version> and use kubectl apply.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fortune-server
+  labels:
+    app.kubernetes.io/name: fortune-server
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: fortune-server
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: fortune-server
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: fortune-server
+          image: ko://github.com/jvzantvoort/fortune/cmd/fortune-server
+          env:
+            - name: PORT
+              value: "3108"
+          ports:
+            - name: http
+              containerPort: 3108
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+          resources:
+            requests:
+              cpu: 10m
+              memory: 16Mi
+            limits:
+              memory: 64Mi
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop: [ALL]
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fortune-server
+  labels:
+    app.kubernetes.io/name: fortune-server
+spec:
+  selector:
+    app.kubernetes.io/name: fortune-server
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
