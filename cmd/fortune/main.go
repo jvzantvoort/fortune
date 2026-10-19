@@ -26,7 +26,7 @@ func main() {
 	files, _ := content.GetFortuneFiles()
 	if listFiles {
 		for _, target := range files {
-			fmt.Printf("- %s\n", strings.Replace(target, ".fortune", "", -1))
+			fmt.Printf("- %s\n", strings.ReplaceAll(target, ".fortune", ""))
 		}
 		return
 	}

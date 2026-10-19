@@ -8,5 +8,5 @@ import (
 )
 
 func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
-	fmt.Fprint(w, GetFortune())
+	_, _ = fmt.Fprint(w, GetFortune())
 }
