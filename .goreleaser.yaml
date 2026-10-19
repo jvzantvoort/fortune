@@ -4,10 +4,39 @@ builds:
   - id: fortune
     main: ./cmd/fortune
     binary: fortune
+    env:
+      - CGO_ENABLED=0
     goos: [linux, darwin, windows]
     goarch: [amd64, arm64]
   - id: fortune-server
     main: ./cmd/fortune-server
     binary: fortune-server
+    env:
+      - CGO_ENABLED=0
     goos: [linux, darwin, windows]
     goarch: [amd64, arm64]
+
+# SPDX SBOM for every archive, generated with syft.
+sboms:
+  - artifacts: archive
+
+dockers_v2:
+  - ids: [fortune, fortune-server]
+    dockerfile: Dockerfile
+    images:
+      - ghcr.io/jvzantvoort/fortune
+    tags:
+      - "{{ .Version }}"
+      - latest
+    platforms:
+      - linux/amd64
+      - linux/arm64
+    sbom: true
+    labels:
+      org.opencontainers.image.title: "{{ .ProjectName }}"
+      org.opencontainers.image.description: "Fortune cookies over HTTP"
+      org.opencontainers.image.source: "{{ .GitURL }}"
+      org.opencontainers.image.version: "{{ .Version }}"
+      org.opencontainers.image.revision: "{{ .FullCommit }}"
+      org.opencontainers.image.created: "{{ .Date }}"
+      org.opencontainers.image.licenses: MIT
