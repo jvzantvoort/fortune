@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0](https://github.com/jvzantvoort/fortune/compare/v0.1.0...v0.2.0) (2026-10-20)
+
+
+### Features
+
+* Added install script ([14c56af](https://github.com/jvzantvoort/fortune/commit/14c56af3daac9795a145f7dad8f190fe7500ced6))
+* Added install script ([5df95ee](https://github.com/jvzantvoort/fortune/commit/5df95eed75941f107e47e3a414cd963c9d8cb206))
+
 ## [0.1.0](https://github.com/jvzantvoort/fortune/compare/v0.0.8...v0.1.0) (2026-10-19)
 
 
